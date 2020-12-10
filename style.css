@@ -53,6 +53,7 @@ h3 {
   font-family: neonbines;
   margin-top: 10vh;
   color: var(--secondary-color);
+  font-size: 1.5rem;
 }
 
 .typing {
@@ -234,8 +235,10 @@ a:hover {
 }
 
 #work {
-  background-color: #3a164e;
-  box-shadow: inset 25px 100px 250px #000000, inset -25px -100px 250px #000000;
+    background-image: url(./images/work.bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .boxes {
@@ -300,11 +303,12 @@ a:hover {
   background-color: var(--primary-light);
 }
 
-#kontakt-side {/*
-  background-color: #3a164e;
-  box-shadow: inset 25px 100px 250px #000000, inset -25px -100px 250px #000000;*/
-  z-index: -1;
-  height: 100%;
+#kontakt-side {/**/
+    background-image: url(./images/work.bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
 }
 .lg-heading-kontakt {
     text-align: center;
@@ -320,7 +324,7 @@ a:hover {
 }
 
 .kontakt_indhold{
-    grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+    grid-template-columns: 1fr;
 
 }
 
@@ -328,7 +332,7 @@ a:hover {
     border-radius: .5rem;
     padding: 3rem;
     text-align: center;
-    box-shadow: 0 4px 6px rgba(174, 190, 205,.3)
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3)
 }
 
 .kontakt_tittel{
@@ -350,7 +354,7 @@ a:hover {
 .kontakt_input{
     width: 100%;
     padding: 1rem;
-    border: 2px solid var(--primary-color);
+    border: 2px solid black;
     border-radius: .5rem;
     margin-top: .5rem;
 }
@@ -370,7 +374,7 @@ a:hover {
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
-    
+
     .lg-heading{
         margin-top: 10vh;
         font-size: 3rem;
@@ -381,6 +385,13 @@ a:hover {
         text-align: center;
         font-size: 2rem;
     }
+
+    .kontakt_indhold{
+        display: grid;
+        grid-template-areas:
+    "kontakt_box kontat_inupts"
+    "kontakt_box kontat_inupts";
+    }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
@@ -388,3 +399,6 @@ a:hover {
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
+
+
+}
