@@ -215,72 +215,70 @@ a:hover{
         transition-delay: 0.4s; 
 }
 
-
 #work{
-    background-color: #3a164e;
-      box-shadow: inset 25px 100px 250px #000000, inset -25px -100px 250px #000000;
-  }
+  background-color: #3a164e;
+	box-shadow: inset 25px 100px 250px #000000, inset -25px -100px 250px #000000;
+}
+
+.boxes {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin-top: 15px;
+   
+}
   
-  .boxes {
-      display: grid;
-      grid-gap: 20px;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      margin-top: 15px;
-     
-  }
-    
-    .box1, .box2, .box3, .box4 {
-      margin-top: 2rem;
-      text-align: center;
-      box-shadow: var(--shadow);
-      padding: 10rem 0;
-  
-  }
-  
-  .box1{
-    background-image: url(./images/pj1.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: var(--secondary-color);
-  }
-  
-  
-  .box2{
-    background-image: url(./images/pj2.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: var(--secondary-color);
-  }
-  
-  .box3{
-    background-image: url(./images/pj3.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: var(--secondary-color);
-  }
-  
-  .box4{
-    padding: 1rem 0 20px 0;
-    color: var(--secondary-color);
-  
-  }
-  
-  .box1:hover{
-        background-color: var(--primary-light);
-        transition: color 0.7s ease-out;
-    }
-  .box2:hover{
+  .box1, .box2, .box3, .box4 {
+    margin-top: 2rem;
+    text-align: center;
+    box-shadow: var(--shadow);
+    padding: 10rem 0;
+
+}
+
+.box1{
+  background-image: url(./images/pj1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: var(--secondary-color);
+}
+
+
+.box2{
+  background-image: url(./images/pj2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: var(--secondary-color);
+}
+
+.box3{
+  background-image: url(./images/pj3.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: var(--secondary-color);
+}
+
+.box4{
+  padding: 1rem 0 20px 0;
+  color: var(--secondary-color);
+
+}
+
+.box1:hover{
       background-color: var(--primary-light);
+      transition: color 0.7s ease-out;
   }
-  
-  .box3:hover{
-      background-color: var(--primary-light);
-  }
-  
-  .box4:hover{
-      background-color: var(--primary-light);
-  }
-  
+.box2:hover{
+    background-color: var(--primary-light);
+}
+
+.box3:hover{
+    background-color: var(--primary-light);
+}
+
+.box4:hover{
+    background-color: var(--primary-light);
+}
