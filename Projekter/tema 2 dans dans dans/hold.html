@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hold.css">
+    <title>Hold</title>
+</head>
+
+<body>
+
+    <!-- Header / Navigation -->
+    <header>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;
+            </a>
+            <a href="index.html">HOME</a>
+            <a href="omos.html">OM OS</a>
+            <a href="hold.html">HOLD</a>
+            <a href="priser.html">PRISER</a>
+            <a href="kontakt.html">KONTAKT</a>
+
+        </div>
+
+        <div id="main">
+
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;
+            </span>
+        </div>
+
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+                document.getElementById("main").style.marginLeft = "250px";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+                document.getElementById("main").style.marginLeft = "0";
+            }
+        </script>
+    </header>
+
+    <!-- Indhold -->
+
+    <section class="hold">
+        <div class="begynder">
+            <h2>Begynder</h2>
+            <p>Er til dig som slet ingen erfaring har indenfor Contemporary Dance og mangler smidighed.</p>
+        </div>
+        <div class="øvet">
+            <h2>Øvet</h2>
+            <p>Er til dig, som har danset Contemporary, og som kender kernen og basis af danseformen.</p>
+        </div>
+        <div class="ekspert">
+            <h2>Ekspert</h2>
+            <p>Er til dig, som har danset Contemporary Dance i mange år, og som kan skabe sin egen koreografi.
+                <br>
+                I denne klasse, får man chancen for at optræde, og skabe et portfolio til videre brug. </p>
+        </div>
+        <div class="obs">
+            <h2>Obs</h2>
+            <p>Da vi løbende har nye hold, beder vi jer kontakte os for yderligere information om holdstart. </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="footer">
+        <footer>
+            <p>Copyright 2020 <br> - All Rights Reserved - Nicolai Kruuse</p>
+        </footer>
+    </div>
+</body>
+
+</html>

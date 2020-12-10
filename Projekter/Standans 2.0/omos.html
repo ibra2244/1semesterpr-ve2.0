@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A standard dance school website">
+    <meta name="keywords" content="dance,standard_dance,quickstep,slowfox,engelsk_vals,wiener_vals,tango">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/danielstyle.css">
+    <title>Om Os</title>
+</head>
+
+<body>
+    <header>
+        <img src="./images/Logo.png" width="65px">
+
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;
+            </a>
+            <a href="./index.html">HJEM</a>
+            <a href="./omos.html">OM OS</a>
+            <a href="./medlemskab.html">MEDLEMSKAB</a>
+            <a href="./kontakt.html">KONTAKT & INFO</a>
+        
+        </div>
+    
+        <div id="main">
+
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;
+            </span>
+        </div>
+
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+                document.getElementById("main").style.marginRight = "0px";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+                document.getElementById("main").style.marginRight = "0";
+            }
+        </script>
+    </header>
+
+    <section class="text">
+        <div class="content">
+            <img src="images/tangod.jpg">
+        </div>
+
+        <div class="news">
+            <h3>
+                Danseskolens historie
+            </h3>
+            <p>
+                Standdans danseskole er en familieejet danseskole, som har gået gennem flere generationer og er stadig drevet af familien den dag idag. Vi sætter stort fokus på at man føler sig tryk når man er til vores undervisning og at man får noget ud af undervisningen. Vores danselærere har mere end 100 års erfaring tilsammen, teamet består af 8 undervisere. Nogle er eksperter indenfor enkelte danse, men nogle kan også alle dansene som indgår i standarddans.
+            </p>
+        </div>
+
+        <div class="about">
+            <h4>
+                Hvad er Standard Dans?
+            </h4>
+
+            <p>
+                Udtrykket 'ballroom dance' stammer fra ordet ball, der igen stammer fra det latinske ord ballare, hvilket betyder at danse - En balsal er et stort rum specielt designet til sådanne danse. Tidligere var ballroom dans social dans for de privilegerede og efterlod folkedans til de lavere klasser. Disse grænser er siden blevet slørede. Definitionen af ​​balsaldans afhænger også af æraen. 
+
+                Standard og latin består af fem danse — International Waltz, International Tango, International Wiener Waltz, International Slow Foxtrot og International Quickstep..
+            </p>
+        </div>
+    </section>
+
+    <div class=wrapper>
+        <div>
+            Gabriella Santiago</p>
+            <p>Er nuværende ejer og adm. direktør af Standans, sammen med sin ældre søster. Hun er også underviser på skolen og har været en del af skolen, siden hun var helt lille.</p>
+        </div>
+        <div>
+            <img src="images/portraitgirl.jpg" width="180">
+        </div>
+    </div>
+
+    <footer>
+        <p>
+            Standard Dans, 2020 © Daniel Moesby
+        </p>
+    </footer>
+</body>
+</html>
