@@ -304,11 +304,10 @@ a:hover {
 }
 
 #kontakt-side {/**/
-    background-image: url(./images/work.bg.jpg);
+    background-image: url(./images/baggrund.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    z-index: -1;
 }
 .lg-heading-kontakt {
     text-align: center;
@@ -336,7 +335,7 @@ a:hover {
 }
 
 .kontakt_tittel{
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 .kontakt_inputs{
@@ -364,7 +363,7 @@ a:hover {
     cursor: pointer;
     border-radius: .5rem;
     padding: 1rem;
-    background: var(--primary-color);
+    background: #000;
     color: var(--secondary-color);
 }
 
