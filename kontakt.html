@@ -1,24 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kontakt</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+          integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+        <link rel="stylesheet" href="normalise.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Portfolio</title>
+      </head>
+<body id="kontakt-side">
 
-    <section class="kontakt section" id="kontakt">
-        <span class="section subtitle"> Kontakt mig </span>
-        <h2 class="section tittel">For projekter</h2>
 
-        <div class="kontakt container grid">
-            <div class="kontakt_indhold_box">
-                <div class="kontakt_box">
-                    <i class="fas fa-id-card fa-2x"></i> 
-                </div>
+<header>
+<div class="menu-btn">
+    <div class="btn-line"></div>
+    <div class="btn-line"></div>
+    <div class="btn-line"></div>
+</div>
+
+<nav class="menu">
+    <div class="menu-branding">
+    <div class="portrait"></div>
+    </div>
+    <ul class="menu-nav">
+    <li class="nav-item current">
+        <a href="index.html" class="nav-link">
+        Hjem
+        </a>
+    </li>
+    <li class="nav-item">
+        <a href="../Projekter/Standans 2.0/" class="nav-link">
+        Om mig
+        </a>
+    </li>
+    <li class="nav-item">
+        <a href="work.html" class="nav-link">
+        Arbejde
+        </a>
+    </li>
+    <li class="nav-item">
+        <a href="kontakt.html" class="nav-link">
+        Kontakt
+        </a>
+    </li>
+    </ul>
+</nav>
+</header>
+
+<main>
+<section class="kontakt section" id="kontakt">
+
+    <h2 class="lg-heading-kontakt">Kontakt mig for projekter</h2>
+
+    <div class="kontakt container grid">
+        <div class="kontakt_indhold_box">
+            <div class="kontakt_box">
+                <i class="fas fa-map-marker-alt fa-2x"></i>                <h3 class="kontakt_tittel">Lokation</h3>
+                <span class="kontakt_beskrivelse">Danmark / Copenhagen</span>
             </div>
-        </div>
-    </section>
+
+            <div class="kontakt_box">
+                <i class="fas fa-phone fa-2x"></i> 
+                <h3 class="kontakt_tittel">Telefon</h3>
+                <span class="kontakt_beskrivelse">+4512345678</span>
+            </div>
+            <div class="kontakt_box">
+                <i class="fas fa-inbox fa-2x"></i> 
+                <h3 class="kontakt_tittel">email</h3>
+                <span class="kontakt_beskrivelse">ibra2244@edu.easj.dk</span>
+            </div>
+
+
+        <form action="" class="kotakt_form">
+            <div class="kontakt_inputs">
+                <input type="text" placeholder="Navn" class="kontakt_input">
+                <input type="email" placeholder="Email" class="kontakt_input"> 
+            </div>
+
+            <div class="kontakt_inputs">
+                <input type="text" placeholder="projekter" class="kontakt_input">
+                <input type="nummer" placeholder="nummer" class="kontakt_input"> 
+            </div>
+
+        <textarea name="" id="" cols="0" rows="8" placeholder="message" class="kontakt_input"></textarea>
+
+        <input type="submit" value="send message" class="button contact_button">
+
+
+        </form>
+    </div>
+</section>
+</main>
     
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+  </script>
+  <script src="main.js"></script>
 </body>
 </html>
