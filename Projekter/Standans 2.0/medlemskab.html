@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/lavdiestyle.css" />
+    <title>Medlemskab</title>
+</head>
+
+<body>
+    
+    <header>
+        <img src="./images/Logo.png" width="65px">
+
+
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;
+            </a>
+            <a href="./index.html">HJEM</a>
+            <a href="./omos.html">OM OS</a>
+            <a href="./medlemskab.html">MEDLEMSKAB</a>
+            <a href="./kontakt.html">KONTAKT & INFO</a>
+        
+        </div>
+    
+        <div id="main">
+
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;
+            </span>
+        </div>
+
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+                document.getElementById("main").style.marginRight = "0px";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+                document.getElementById("main").style.marginRight = "0";
+            }
+        </script>
+    </header>
+
+
+        <section class="container">
+            <div class="top-box top-box-a">
+              <h2>Medlemskab</h2>
+              <p class="price">499kr/m</p>
+      
+              <a href="#" class="btn">Tilmeld</a>
+            </div>
+            <div class="top-box top-box-b">
+              <h2>Pro Medlemskab</h2>
+              <p class="price">699kr/m</p>
+              <a href="#" class="btn">Tilmeld</a>
+            </div>
+            <div class="top-box top-box-c">
+              <h2>Drop In</h2>
+              <p>
+                45 minutter drop-in klasse koster <strong>150 kr.</strong> <br />90
+                minutter drop-in klasse koster <strong>200 kr.</strong>
+              </p>
+      
+              <a href="#" class="btn">Køb Nu</a>
+            </div>
+            <div class="top-box top-box-d">
+              <h2>Priser</h2>
+              <p>
+                Prøvetime koster <strong>100 kr.</strong> - som modregnes
+                ved tilmelding. Send og venligst en mail om hvilket hold du ønsker at
+                starte på.
+              </p>
+      
+              <a href="#" class="btn">Køb Nu</a>
+            </div>
+          </section>
+          <footer>
+            <p>
+                © 2020 - Standans - Lavdie Elmazi
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>

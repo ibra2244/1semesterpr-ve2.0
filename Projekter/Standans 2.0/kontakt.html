@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact page for Standans">
+    <meta name="keywords" content="dance, standard, contact, info, phone, email, location">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/dembstyle.css">
+    <title>Standans - Kontakt</title>
+</head>
+<body>
+    <header>
+        <img src="./images/Logo.png" width="65px">
+
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;
+            </a>
+            <a href="./index.html">HJEM</a>
+            <a href="./omos.html">OM OS</a>
+            <a href="./medlemskab.html">MEDLEMSKAB</a>
+            <a href="./kontakt.html">KONTAKT & INFO</a>
+        
+        </div>
+    
+        <div id="main">
+
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;
+            </span>
+        </div>
+
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+                document.getElementById("main").style.marginRight = "0px";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+                document.getElementById("main").style.marginRight = "0";
+            }
+        </script>
+    </header>
+
+    <section class="contact">
+        <div class="grid-container">
+            <div class="grid-item tms">
+                <div class="h3">
+                    <h3>
+                        Åbningstider
+                    </h3>  
+                </div>
+                <div class="grid-item tms p">
+                    <div>
+                        <p>
+                            MAN-FRE
+                        </p>
+                        <p>
+                            LØR
+                        </p>
+                        <p>
+                            SØN
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            08:00 - 15:00
+                        </p>
+                        <p>
+                            09:00 - 15:00
+                        </p>
+                        <p>
+                            09:00 - 14:00
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-item phn">
+                <h3>
+                    Telefonnummer
+                </h3>
+                <p>
+                    +45 00 00 00 00
+                </p>
+            </div>
+
+            <div class="grid-item ml">
+                <h3>
+                    Email
+                </h3>
+                <p>
+                    Kontakt@standans.dk
+                </p>
+            </div>
+
+
+            <div class="grid-item lctn">
+                <h3>
+                    Lokation
+                </h3>
+                <p>
+                    Tilfældiggade 42, 
+                    <br>
+                    København 1362, Danmark
+                </p>
+                <p class="mp">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.751735967925!2d12.566939816044094!3d55.67591720538647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652530dfbdd1e99%3A0x2717b01caaedfd10!2sR%C3%A5dhuspladsen!5e0!3m2!1sda!2sdk!4v1601893263500!5m2!1sda!2sdk" width="300" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>
+            © 2020 - Standans - Nicolai Kruuse
+        </p>
+    </footer>
+</body>
+</html>
