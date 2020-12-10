@@ -241,7 +241,7 @@ a:hover {
 .boxes {
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;
   margin-top: 15px;
 }
 
@@ -357,8 +357,34 @@ a:hover {
 
 .contact_button{
     border: none;
+    cursor: pointer;
     border-radius: .5rem;
     padding: 1rem;
     background: var(--primary-color);
     color: var(--secondary-color);
 }
+
+@media screen and (min-width: 1171px) {  
+   
+    .boxes{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+    .lg-heading{
+        margin-top: 10vh;
+        font-size: 3rem;
+    }
+
+    .text{
+        margin-top: 10vh;
+        text-align: center;
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1170px) {
+    .boxes{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
