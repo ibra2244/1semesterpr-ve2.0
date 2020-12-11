@@ -251,6 +251,7 @@ a:hover {
 
 .box1,
 .box2,
+.box5,
 .box3,
 .box4 {
   margin-top: 2rem;
@@ -276,6 +277,15 @@ a:hover {
   color: var(--secondary-color);
 }
 
+.box5 {
+  background-image: url(./images/pj2.1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: var(--secondary-color);
+}
+
+
 .box3 {
   background-image: url(./images/pj3.png);
   background-position: center;
@@ -287,6 +297,15 @@ a:hover {
 .box4 {
   padding: 1rem 0 20px 0;
   color: var(--secondary-color);
+}
+
+.box6{
+  background-image: url(./images/pj6.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: var(--secondary-color);
+  padding: 10rem 0;
 }
 
 .box1:hover {
