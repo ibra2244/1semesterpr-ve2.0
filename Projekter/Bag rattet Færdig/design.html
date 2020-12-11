@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Student-Class Car with a Discount">
+    <meta name="keywords" content="bil,student,class,leasing,design,koncept">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="designstyle.css" />
+    <title>S/Leasing</title>
+  </head>
+  <body>
+    <header>
+      <a href="./index.html">
+      <img src="./images/logo2.png" alt="" class="logo" /></a>
+      <nav id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;
+        </a>
+          <ul>
+              <li><a href="./index.html">FORSIDE</a></li>
+              <li><a href="./koncept.html">KONCEPT</a></li>
+              <li><a href="./design.html">DESIGN</a></li>
+              <li><a href="./leasing.html">LEASING</a></li>
+          </ul>
+      </nav>
+
+      <div class="burger">
+        <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+          >&#9776;
+        </span>
+      </div>
+    </header>
+   
+    <section>
+      <div class="container">
+        <div class="text-box">
+            <h4 style="text-align:center;">DESIGN</h4>
+            <p style="color:black; text-align:center;">SLASH kommer tonet og lakeret enten i farven Sunset Yellow eller Silver Clouds. Hjulkapslerne er Jet Ink Black. Disse kombinationer af farver passer perfekt til cruisen på landevej og i by-billedet. </p>
+            <img src="./images/yellow-mercedes.png" alt="Bilen" class="center"> 
+            <p style="color:black; text-align:center;">Oplev den fede fornemmelse af SLASH's indenvendige komfort. Med nem adgang til Apple Carplay samt dæmpede diodelys i instrumentbrættet, formes stemningen på turen mod din destination. </p>
+            <img src="./images/mercedesfront2.jpg" alt="bilen foran" class="center">
+            <p style="color:black; text-align:center;">Siddekomfort i en klasse for sig selv. Perfekt til når en studiekammerat får et lift.</p>
+            <img src="./images/mercedes-seats.png" alt="bilen bagfra" class="center">    
+            <p style="color:black;text-align:center;">Er du fristet?</p>
+
+         <div class="btn">
+         <a href="./leasing.html" class="btn-lease">lease nu</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "375px";
+        document.getElementById("main").style.marginRight = "0px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginRight = "0";
+      }
+    </script>
+  </body>
+</html>

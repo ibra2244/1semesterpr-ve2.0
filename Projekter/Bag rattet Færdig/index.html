@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Student-Class Car with a Discount">
+    <meta name="keywords" content="bil,student,class,leasing,design,koncept">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="indexstyle.css" />
+    <title>S/Leasing</title>
+  </head>
+  <body>
+    <header>
+    <a href="./index.html">
+      <img src="./images/logo2.png" alt="logo" class="logo" /></a>
+      <nav id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times; </a>
+        <ul>
+          <li><a href="./index.html">forside</a></li>
+          <li><a href="./koncept.html">koncept</a></li>
+          <li><a href="./design.html">design</a></li>
+          <li><a href="./leasing.html">leasing</a></li>
+        </ul>
+      </nav>
+
+      <div class="burger">
+        <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+          >&#9776;
+        </span>
+      </div>
+    </header>
+
+    <section>
+      <div class="container">
+        <div class="text-box">
+          <h4>Slash <br> Skær prisen på ren luksus</h4>
+          <h1>
+            Lease en luksusbil med Studierabat
+          </h1>
+
+          <div class="btn">
+            <a href="./koncept.html" class="btn-koncept">koncept</a>
+            <a href="./leasing.html" class="btn-lease">lease nu</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "375px";
+        document.getElementById("main").style.marginRight = "0px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginRight = "0";
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap');
+
+/* FARVER */
+
+:root {
+  --primary: #91D5FF;
+  --dark: #000;
+  --light: #fff;
+  --leasing: #cab61d;
+  --leasingbutton: #ffe624;
+  --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+  font-weight: 300;
+  background: #212121;
+  background-image: url(./images/martin2.jpg);
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+/* KONTAKTBOX */
+
+.mail input {
+  margin-left: 40px;
+}
+
+/* TEXT */
+
+a {
+  text-decoration: none;
+}
+
+h1, h4 {
+  line-height: 1.2;
+  margin: 10px 0;
+}
+
+header {
+  background: rgba(0, 0, 0, 0.3);
+  color: var(--dark);
+  text-align: center;
+  padding-top: 2px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.nypris {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.kontakt {
+  font-size: 12px;
+}
+
+.kontakt2 {
+  font-size: 10px;
+  margin-top: 230px;
+}
+
+.text-box {
+  position: absolute;
+  top: 100px;
+  bottom: 50px;
+  left: 30px;
+}
+
+.text-box h4 {
+  font-family: 'Roboto', sans-serif;
+  color: var(--leasing);
+  font-size: 20px;
+}
+
+/* BURGER-MENU / SIDENAV */
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #212121;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+
+.sidenav a {
+  padding: 8px 8px 8px 8px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* CLOSE BUTTON */
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.burger {
+  transition: margin-left 0.5s;
+  padding: 28px;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 45px;
+  text-transform: uppercase;
+}
+
+/* TEXT FOR CONTACT */
+
+.mail {
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+}
+
+.mail p {
+  margin: 0;
+}
+
+.mail input {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+/* BUTTON */
+
+.btn {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+
+.btn-pre {
+  background-color: #ffe524c0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  color: var(--dark);
+  padding: 10px 30px;
+}
+
+.btn-test {
+  background-color: var(--dark);
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  color: var(--primary);
+  padding: 10px 40px;
+}
+
+/* LOGO */
+
+.logo {
+  padding-left: 5rem;
+  margin-top: 25px;
+}

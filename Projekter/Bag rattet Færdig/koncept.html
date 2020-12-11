@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Student-Class Car with a Discount">
+    <meta name="keywords" content="bil,student,class,leasing,design,koncept">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="konceptstyle.css" />
+    <title>S/Leasing</title>
+  </head>
+  <body>
+    <header>
+      <a href="./index.html">
+      <img src="./images/logo2.png" alt="" class="logo" /></a>
+      <nav id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;
+        </a>
+        <ul>
+          <li><a href="./index.html">forside</a></li>
+          <li><a href="./koncept.html">koncept</a></li>
+          <li><a href="./design.html">design</a></li>
+          <li><a href="./leasing.html">leasing</a></li>
+        </ul>
+      </nav>
+
+      <div class="burger">
+        <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+          >&#9776;
+        </span>
+      </div>
+    </header>
+    <section class="box1">  
+    <h1 class="text">
+        SLASH <br> - Bag Konceptet
+    </h1>
+    <h2 class="text2">
+        Lev dit bedste liv - NU
+    </h2>
+    <h3 class="text3">
+      Vi tilbyder her en eksklusivt mulighed KUN for 
+      studerende indmeldt på en dansk uddannelse. <br><br>
+      Med denne unikke løsning, kan du udleve drømmen 
+      om at cruise gennem det danske landskab og bybillede 
+      - i din luksusbil - allerede fra imorgen. <br><br>
+
+    </h3>
+    <div class="btn">
+      <a href="./leasing.html" class="btn-lease">LEASE NU</a>
+    </div>
+  </section>
+  <section class="box2">
+    <h3 class="text4">
+      SLASH-modellen bygger på ideen om luksusbilers fængende exterior design: Smart og æstetisk. De indenvendige komponenter er dertil nøje udvalgt, så produktionsomkostningerne holdes nede i niveau. Netop derfor kan vi tilbyde en leasingpris der tiltaler de fleste, og som kun er tilgængelig for studerende. <br><br>
+      En ting SLASH ikke går på kompromi med er lyd: Bilen er udstyret med Apple Carplay, så du nemt kan tilkoble iPhonen og afspille DIN musik.
+    </h3>
+  </section>
+    
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "375px";
+        document.getElementById("main").style.marginRight = "0px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginRight = "0";
+      }
+    </script>
+  </body>
+</html>

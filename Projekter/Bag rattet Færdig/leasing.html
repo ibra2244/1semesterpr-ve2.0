@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Student-Class Car with a Discount">
+    <meta name="keywords" content="bil,student,class,leasing,design,koncept">
+
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="leasingstyle.css">
+
+    <title>S/Leasing</title>
+
+</head>
+
+<body>
+<!-- LOGO som Knap -->
+    <header>
+        <a href="./index.html">
+        <img src="./images/logo2.png" alt="logo" class="logo" /></a>
+        
+<!-- BURGER-MENU -->
+        
+        <nav id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;
+            </a>
+            <ul>
+                <li><a href="./index.html">forside</a></li>
+                <li><a href="./koncept.html">koncept</a></li>
+                <li><a href="./design.html">design</a></li>
+                <li><a href="./leasing.html">leasing</a></li>
+            </ul>
+        </nav>
+  
+        <div class="burger">
+            <span style="font-size: 30px; cursor: pointer" onclick="openNav()">&#9776;</span>
+        </div>
+
+    </header>
+
+<!-- TEXT + BUTTON -->
+
+    <section>
+
+        <div class="container">
+            <div class="text-box">
+                <h4>
+                      LEASING</h4>
+                <p>
+                  Leasing af tilsvarende bil på normalt marked <br>
+                  Engangsydelse fra <del>30.000 kr.</del> <br>
+                  + Månedlig Ydelse fra <del> 3.595 kr.</del>
+                </p>
+
+                <p class="nypris">
+                  Lease Én SLASH <br>
+                  Engansydelse 20.000 kr. <br>
+                  + Månedlig Ydelse fra 2.195 kr.
+                </p>
+
+                <p class="kontakt">
+                  Skriv dine kontakt oplysninger nedenfor, <br>
+                  så kontakter vi dig snarest muligt.
+                </p>
+
+                <p class="kontakt">
+                  Du kan hente din SLASH allerede imorgen* 
+                </p>
+
+                <Section class="mail">
+                  
+                  <input type="text" placeholder="Fornavn">
+                  
+                  <input type="text" placeholder="Efternavn">
+                  
+                  <input type="email" placeholder="E-mail">
+                
+                </Section>
+
+                <div class="btn">
+                    <a href="./index.html" class="btn-pre">indsend</a>
+                </div>
+
+                <p class="kontakt2">
+                  * Forudsat Bankgodkendelse
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+      <script>
+
+          function openNav() {
+            document.getElementById("mySidenav").style.width = "375px";
+            document.getElementById("main").style.marginRight = "0px";
+          }
+  
+          function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginRight = "0";
+          }
+
+      </script>
+
+</body>
+
+</html>
